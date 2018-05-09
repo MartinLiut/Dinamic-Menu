@@ -1,0 +1,74 @@
+section#body {
+	width: 100%;
+	height: 150vh;
+	background-image: url('./../img/background.jpg');
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: transparent;
+	font-family: 'Dosis', sans-serif;
+	-webkit-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+.header-grey {
+	-webkit-box-shadow: inset 0px 16px 22px -6px rgba(0,0,0,0.55);
+	-moz-box-shadow: inset 0px 16px 22px -6px rgba(0,0,0,0.55);
+	box-shadow: inset 0px 16px 22px -6px rgba(0,0,0,0.55);
+	background-color: rgba(1, 1, 1, .05);
+	border-bottom: .5px solid rgba(1, 1, 1, .07);
+}
+
+header nav {
+	display: table;
+	margin: auto;
+	margin-top: 10px;
+}
+
+header nav .logo {
+	float: left;
+	display: block;
+	-webkit-transition: width 1s ease, height 1s ease, margin 1.5s ease;
+	-o-transition: width 1s ease, height 1s ease, margin 1.5s ease;
+	transition: width 1s ease, height 1s ease, margin 1.5s ease;
+}
+
+header nav .logo-up {
+	width: 400px;
+	margin: 100px 10px 0;
+}
+
+header nav .logo-down {
+	width: 125px;
+	margin: 0;
+}
+
+header nav ul {
+	display: block;
+	list-style: none;
+	float: left;
+}
+
+header nav ul li {
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+
+header nav ul li a {
+	color: #fff;
+	font-weight: 400;	
+	font-size: 1.2em;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+} 
+
+header nav ul li a.a-down {
+	font-weight: 400;	
+	font-size: 1em;
+}
