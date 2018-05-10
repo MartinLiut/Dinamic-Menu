@@ -12,28 +12,34 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Videos</a></li>
-				<li><a href="#">Imágenes</a></li>
-			</ul>
-			<img src="img/logo.png" alt="Martin Liut" class="logo logo-up shake-slow shake-constant--hover">
-			<ul>
-				<li><a href="#">Acerca de</a></li>
-				<li><a href="#">Locales</a></li>
-				<li><a href="#">Salir</a></li>
-			</ul>
-		</nav>
-	</header>
+	<div id="fullpage">
+		<div class="section">
+			<header>
+				<nav>
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">Imágenes</a></li>
+					</ul>
+					<img src="img/logo.png" alt="Martin Liut" class="logo logo-up shake-slow shake-constant--hover animated fadeInUp">
+					<ul>
+						<li><a href="#">Acerca de</a></li>
+						<li><a href="#">Locales</a></li>
+						<li><a href="#">Salir</a></li>
+					</ul>
+				</nav>
+			</header>
 
-	<section id="body">
-		<div class="shake-vertical shake-slow"><i class="fas fa-arrow-alt-circle-down"></i></div>
-		<div class="shake-vertical shake-slow"><i class="fas fa-arrow-alt-circle-down"></i></div>
-	</section>
-	<section id="body2"></section>
-	<section id="body3"></section>
+			<section id="body">
+				<div class="button"><i class="fas fa-arrow-alt-circle-down"></i></div>
+				<div class="button"><i class="fas fa-arrow-alt-circle-down"></i></div>
+			</section>
+		</div>
+		<div class="section">
+			<section id="body2" class="slide">
+		</div>
+		<div class="section"><section id="body3"></section></div>
+	</div>
 
 	<footer>
 		<p>By Martin Liut &copy 2018</p>
