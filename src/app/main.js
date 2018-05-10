@@ -1,3 +1,6 @@
+import $ from 'jquery';
+import csshake from 'csshake';
+
 $(document).ready(function() {
 	var flag = false;
 	var scroll;
