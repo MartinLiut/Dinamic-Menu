@@ -2,8 +2,11 @@ import $ from 'jquery';
 import csshake from 'csshake';
 import fullpage from 'fullpage.js';
 import animate from 'animate.css';
+import WOW from 'wow.js';
 
 $(document).ready(function() {
+	new WOW().init();
+
 	$('#fullpage').fullpage({
 		navigation: true,
 		navigationPosition: 'right',
